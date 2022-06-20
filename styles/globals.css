@@ -1,5 +1,21 @@
+:root {
+  --background: #e7e7e7;
+  --ultramarine: #00303b;
+  --mustard: #ffce96;
+  --lightRed: #ff7777;
+  --deepBlue: #292831;
+  --lightBlue: #333f58;
+  --calculatorGreen: #9eb48a93;
+  --grey: #888888;
+  --lightGrey: #afafaf;
+  --darkGrey: #5a5a5a;
+  --offWhite: #dfddd9f5;
+  --lightOffwhite: #faf5ecf5;
+}
+
 html,
 body {
+  background-color: var(--background);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,

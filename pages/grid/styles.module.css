@@ -1,0 +1,26 @@
+.gridContainer {
+  height: 700px;
+  width: 700px;
+  background-color: var(--lightRed);
+  border-radius: 5px;
+}
+
+.container {
+  user-select: none;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--offWhite);
+}
+
+.gridElement {
+  background-color: var(--ultramarine);
+  border: 1px solid var(--offWhite);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,25 @@
+.backContainer {
+  position: fixed;
+  border: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+}
+
+.backButton {
+  color: var(--deepBlue);
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  background-color: var(--background);
+}
+
+.backButton::before {
+  content: "<";
+  margin-right: 5px;
+}
+
+.backButton:hover {
+  cursor: pointer;
+}
